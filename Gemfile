@@ -7,6 +7,7 @@ gem 'sqlite3', group: [:development, :test]
 
 gem 'bootstrap-sass', '3.3.1'
 gem 'font-awesome-sass', '4.4.0'
+gem 'devise', '3.4.1'
 
 group :production do
   gem 'pg'
