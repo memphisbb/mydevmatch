@@ -2,15 +2,13 @@
     <h1>Welcome to MyDevMatch</h1>
     <h3>A site where entrepreneurs can meet developers.</h3>
 </div>
-
-
 <div class="row">
     <div class="col-md-6">
         <div class="well">
             <div class="text-center">
-                <h4>Basic Membership</h4>
-                <h2>Sign up for free and have access to the community.<br/><br/></h2>
-                
+                <h2>Basic Membership</h2>
+                <h4>Sign up for free and have access to the community. <br/><br/></h4>
+                <br/>
                 <%= link_to "Sign Up for Basic" , new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-block btn-lg' %>
             </div>
         </div>
@@ -18,8 +16,9 @@
         <div class="col-md-6">
             <div class="well">
                 <div class="text-center">
-                    <h4>Pro Membership</h4>
-                    <h2>Sign up for the pro account for $10 and get access to the community and contact information!</h2>
+                    <h2>Pro Membership</h2>
+                    <h4>Sign up for the pro account for $10 and get access to the community and contact information!</h4>
+                    <br/>
                     <%= link_to "Sign Up for Pro" , new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
                 </div>
             </div>
