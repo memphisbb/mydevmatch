@@ -8,6 +8,8 @@ gem 'sqlite3', group: [:development, :test]
 gem 'bootstrap-sass', '3.3.1'
 gem 'font-awesome-sass', '4.4.0'
 gem 'devise', '3.4.1'
+gem 'stripe', '1.16.1'
+gem 'figaro', '1.0.0'
 
 group :production do
   gem 'pg'
