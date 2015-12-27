@@ -12,6 +12,7 @@ gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
 gem 'paperclip', '4.2.1'
 
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
