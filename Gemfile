@@ -10,7 +10,7 @@ gem 'font-awesome-sass', '4.4.0'
 gem 'devise', '3.4.1'
 gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
-gem 'paperclip', '4.2.1'
+gem 'paperclip'
 gem 'aws-sdk'
 
 group :production do
