@@ -10,8 +10,9 @@ gem 'font-awesome-sass', '4.4.0'
 gem 'devise', '3.4.1'
 gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
-gem 'paperclip'
 gem 'aws-sdk'
+gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
+
 
 group :production do
   gem 'pg'
