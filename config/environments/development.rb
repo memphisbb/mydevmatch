@@ -36,14 +36,12 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   
 
+  
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => 'bb-demo-dev',
-      :access_key_id => "#{Rails.root}/config/application.yml",
-      :secret_access_key => "#{Rails.root}/config/application.yml",
-      :s3_region=> 'us-west-2',
+      :bucket => 'bb-demo-production',
+      :s3_region=> 'us-west-2'
     }
   }
-  
 end
