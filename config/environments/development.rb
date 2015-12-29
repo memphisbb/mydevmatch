@@ -36,6 +36,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   
 
+<<<<<<< HEAD
 
 config.paperclip_defaults = {
     :storage => :s3,
@@ -44,6 +45,14 @@ config.paperclip_defaults = {
       :access_key_id => ENV['AWS_ACCESS_KEY'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
       :s3_region=> 'us-west-2',
+=======
+  
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => 'bb-demo-production',
+      :s3_region=> 'us-west-2'
+>>>>>>> parent of 622dc59... corrections
     }
   }
 end
