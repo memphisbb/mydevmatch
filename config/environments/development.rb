@@ -40,7 +40,7 @@ Rails.application.configure do
   config.paperclip_defaults = {
       :storage => :s3,
       :s3_credentials => {
-        :bucket => 'bb-demo-production', 
+        :bucket => 'bb-demo-dev', 
         :access_key_id => ENV['AWS_ACCESS_KEY'],
         :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
         :s3_region=> 'us-west-2',
